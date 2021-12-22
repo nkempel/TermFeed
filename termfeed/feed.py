@@ -164,7 +164,7 @@ def fetch_feeds(urls):
             kb = _continue()  # keystroke listener
 
             if kb:
-                user_selected = kb is not '' and kb in str(zipped.keys())
+                user_selected = kb != '' and kb in str(zipped.keys())
                 if user_selected:
                     # to open page in browser
                     link = zipped[int(kb)].link

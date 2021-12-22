@@ -79,4 +79,12 @@ rss = {
         "http://cacm.acm.org/browse-by-subject/artificial-intelligence.rss",
         "feed:https://news.ycombinator.com/rss",
     ],
+
+    "AWS": [
+        "feed:https://status.aws.amazon.com/rss/ec2-us-east-1.rss",
+        "https://status.aws.amazon.com/rss/ec2-us-east-2.rss",
+        "https://status.aws.amazon.com/rss/ec2-us-west-1.rss",
+        "https://status.aws.amazon.com/rss/ec2-us-west-2.rss",
+        "https://status.aws.amazon.com/rss/ec2-ca-central-1.rss"
+    ]
 }
